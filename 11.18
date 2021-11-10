@@ -1,0 +1,21 @@
+# Angel Arroyo
+# November 10th, 2021
+
+nums = input("")
+
+lst = nums.split()
+
+
+new_lst = ([])
+
+for i in lst:
+
+   if int(i) >= 0:
+
+       new_lst.append(int(i))
+
+new_lst.sort()
+
+for x in new_lst:
+
+   print(x, end=" ")
